@@ -1,0 +1,10 @@
+| Code    | Meaning      | Use case                       |
+| ------- | ------------ | ------------------------------ |
+| **200** | OK           | Successful GET                 |
+| **201** | Created      | After POST creating a resource |
+| **204** | No Content   | After DELETE                   |
+| **400** | Bad request  | Invalid input                  |
+| **401** | Unauthorized | Invalid or missing token       |
+| **403** | Forbidden    | No permission                  |
+| **404** | Not found    | Resource missing               |
+| **500** | Server error | Something went wrong           |
